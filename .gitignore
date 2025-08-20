@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+*.sqlite3
+.pytest_cache/
+.env
+.mypy_cache/
+*.db
+
+# VSCode
+.vscode/
+
+# Docker
+*.tar
+*.img
+
+# Node/Vite/React (frontend)
+frontend/node_modules/
+frontend/dist/
+.vite/
+frontend/.env
+frontend/.env.*
+
+# General
+.DS_Store
+Thumbs.db
+
+# Test/coverage
+.coverage
+htmlcov/
+.tox/
+.cache/
+*.cover
+*.pyc
+
+# Devcontainer
+.devcontainer/
+
+# Alembic/Migrations
+migrations/__pycache__/
+migrations/versions/__pycache__/
+
+# Ignore build artifacts
+build/
+dist/
